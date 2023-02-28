@@ -1,4 +1,6 @@
 import React from "react";
+import About from "./About";
+import Features from "./Features";
 import Landing from "./Landing";
 import Navbar from "./Navbar";
 
@@ -8,6 +10,8 @@ export default function Home() {
       <Navbar />
       <div id="home">
         <Landing />
+        <About />
+        <Features />
       </div>
     </>
   );

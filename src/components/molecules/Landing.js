@@ -7,27 +7,21 @@ export default function Landing() {
   return (
     <>
       <div className="bg-landing bg-cover w-screen" style={{ height: "800px" }}>
-        <h1 className="pt-48 ml-10 text-4xl text-start tracking-wide leading-10 md:ml-20 md:text-6xl text-white">
-          <span className="text-orange-primary">U</span>nified{" "}
-          <span className="text-orange-primary">L</span>ogistics
+        <h1 className="pt-48 ml-10 text-6xl text-start tracking-wide md:ml-20 text-white" style={{ lineHeight: '5rem' }}>
+          <span className="text-orange-light">U</span>nified{" "}
+          <span className="text-orange-light">L</span>ogistics
           <br></br>
-          <span className="text-orange-primary">I</span>nterface{" "}
-          <span className="text-orange-primary">P</span>latform
+          <span className="text-orange-light">I</span>nterface{" "}
+          <span className="text-orange-light">P</span>latform
         </h1>
-        <h2 className="mt-4 text-xl text-start ml-10 md:ml-20 md:text-3xl text-orange-primary italic">
+        <h2 className="mt-4 text-3xl text-start ml-10 md:ml-20 text-orange-primary italic">
           Goods. Faster
         </h2>
-        <div className="float-left mt-6 ml-10 hidden md:block md:ml-20">
+        <div className="float-left mt-6 ml-10 md:ml-20">
           <ButtonPrimary text="Log In" size="xl" />
         </div>
-        <div className="float-left mt-6 ml-4 hidden md:block">
+        <div className="float-left mt-6 ml-4">
           <ButtonSecondary text="Sign Up" size="xl" />
-        </div>
-        <div className="float-left mt-6 ml-10 md:ml-20 md:hidden">
-          <ButtonPrimary text="Log In" size="base" />
-        </div>
-        <div className="float-left mt-6 ml-4 md:hidden">
-          <ButtonSecondary text="Sign Up" size="base" />
         </div>
       </div>
     </>

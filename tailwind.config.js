@@ -10,10 +10,12 @@ module.exports = {
       }
     },
     colors: {
-      'backround-primary': '#031022',
+      'background-primary': '#031022',
       'background-secondary': '#202443',
-      'orange-primary': '#e97b22',
-      'orange-secondary': '#B75B1B',
+      'orange-primary': '#D26E1D',
+      'orange-light': '#e97b22',
+      'brown': '#5D2700',
+      'purple': '#20161B',
       'white': '#ffffff'
     },
   },
