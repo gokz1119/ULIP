@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       'backgroundImage':{
         'landing': "url('./assets/images/background_image.webp')"
+      },
+      boxShadow: {
+        'bottom': '0 20px 20px -20px #e97b22',
+        'top-sm': '0 10px 15px -5px #e97b22'
       }
     },
     colors: {
